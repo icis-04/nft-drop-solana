@@ -1,0 +1,35 @@
+{
+  "number": 3,
+  "symbol": "BCS",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "8Kqppqu9mBMq5GrvoT68diVwt1Dds8e35nawgtADrVWr",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+      "botTax": {
+        "value": 0.01,
+        "lastInstruction": true
+      },
+      "startDate": {
+        "date": "2023-01-20 18:00:00 +0000"
+      },
+      "solPayment": {
+        "value": 1,
+        "destination": "8Kqppqu9mBMq5GrvoT68diVwt1Dds8e35nawgtADrVWr"
+      }
+    },
+    "groups": null
+  }
+}
