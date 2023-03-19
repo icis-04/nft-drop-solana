@@ -22,6 +22,7 @@ const Hero = () => {
         </p>
         <p className={styles.heroParagraph}>
           <a href="https://faucet.quicknode.com/solana/devnet"
+          target="_blank"
           className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"> Click here </a>
            to get free devnet sol
           
