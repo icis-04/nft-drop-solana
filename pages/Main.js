@@ -42,7 +42,7 @@ export default function Main() {
 
 
   const { connection }  = useConnection()
-  const wallet = Keypair.generate();
+  const wallet = useAnchorWallet()
 
   useEffect(() => {
     setMetaplex(
