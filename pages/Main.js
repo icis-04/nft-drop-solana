@@ -11,7 +11,7 @@ import {
 
 } from '@metaplex-foundation/js'
 
-import { LAMPORTS_PER_SOL } from "@solana/web3.js";
+import { LAMPORTS_PER_SOL,  Keypair  } from "@solana/web3.js";
 
 import { useAnchorWallet, useConnection } from "@solana/wallet-adapter-react";
 import { CANDY_MACHINE_ID } from "../utils/constants";
@@ -42,7 +42,7 @@ export default function Main() {
 
 
   const { connection }  = useConnection()
-  const wallet = useAnchorWallet()
+  const wallet = Keypair.generate();
 
   useEffect(() => {
     setMetaplex(
