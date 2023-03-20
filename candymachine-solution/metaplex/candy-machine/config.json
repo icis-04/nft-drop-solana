@@ -1,23 +1,21 @@
 {
-  "size": 3,
-  "symbol": "SMB",
-  "royalties": 500,
+  "number": 3,
+  "symbol": "BCS",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
   "isSequential": false,
   "creators": [
     {
-      "address": "6D3JNTMDKqeA533CxnQTtzYHy1SuNCwvo7z9Cx3T9jJi",
+      "address": "8Kqppqu9mBMq5GrvoT68diVwt1Dds8e35nawgtADrVWr",
       "share": 100
     }
   ],
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
   "hiddenSettings": null,
-  "uploadConfig": {
-    "method": "bundlr",
-    "awsConfig": null,
-    "nftStorageAuthToken": null,
-    "pinataConfig": null,
-    "shdwStorageAccount": null
-  },
-  "isMutable": true,
   "guards": {
     "default": {
       "botTax": {
@@ -25,11 +23,11 @@
         "lastInstruction": true
       },
       "startDate": {
-        "date": "2022-10-20 18:00:00 +0000"
+        "date": "2023-01-20 18:00:00 +0000"
       },
       "solPayment": {
-        "value": 2,
-        "destination": "2aaKJpbQNpJXPgReNKQtB5ozs1DnoADCQCGk5pD7x2Xg"
+        "value": 1,
+        "destination": "8Kqppqu9mBMq5GrvoT68diVwt1Dds8e35nawgtADrVWr"
       }
     },
     "groups": null

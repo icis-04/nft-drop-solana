@@ -111,7 +111,7 @@ export default function Main() {
       setTxLoading(false)
       toast.success("Minted NFT!")
     }
-  }
+  };
 
   const soldOut = candyState?.itemsRemaining.eqn(0);
   const solAmount = candyState?.candyGuard?.guards?.solPayment ?
